@@ -1,0 +1,22 @@
+Assignment:-1( module 2) 
+
+
+1) what is protocol? 
+--> protocol means a rules for processing data. 
+
+2) what is domain? 
+--> domain  through we access websites .Example :- google. Com etc.
+ 
+3) what is java script? 
+--> JavaScript comes in static type out of 2 types of website type  . Java script was programming language. 
+•java script have 2 types script. 
+1) server script
+2) client script
+
+4) what is server script? 
+--> server script that program like that run on web server. Server script in We access  any file which present any web server. 
+• server script using for web development and it's run on back - end server. 
+
+5) what is client script? 
+--> client type of script is type of java script that run on the client device , and in Browser. 
+• client script in we no access to the files whom exist in web server.

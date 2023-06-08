@@ -1,0 +1,15 @@
+Assignment :-1 (module-1) 
+
+Assignment:-1 
+ 1) What is webpage? 
+-->  some kind of code written in html, css and java script. 
+2)what is website? 
+-->  website is collection of webpage. 
+3) what is web server? 
+--> web server means collection of data like example :- www ( world wibe web) 
+4) what is web browser? 
+--> that place when website was run. Example:- crome, internet Explorer, Firefox, safari. 
+5) what is serch engine? 
+-->  when we  needed information search that platform called search engine. Example :- google, duck duck go, yahoo, bing. 
+6) what is seo? 
+--> seo means serch engine optimization. Seo optimize website's and give popularity to that web pages become easily findable.
