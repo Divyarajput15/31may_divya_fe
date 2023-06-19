@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>que-16</title>
+</head>
+<body>
+    <h3>how are the active links are different from normal links ?</h3>
+    <p>
+        Active links are different from normal links in terms of their states and the styling applied to them. In HTML and CSS, active links refer to hyperlinks that are currently being interacted with by the user, such as when a link is clicked or when the mouse pointer is hovering over it. On the other hand, normal links generally refer to all other links that are not in the active state.
+
+To differentiate between active links and normal links, CSS provides pseudo-classes that can be used to style links based on their state. The commonly used pseudo-classes for links are:
+
+1. `:link`: This pseudo-class targets unvisited links. It is used to define the style for links that have not been clicked or visited by the user.
+
+2. `:visited`: This pseudo-class targets visited links. It allows you to define a different style for links that have been previously clicked or visited by the user.
+
+3. `:hover`: This pseudo-class targets links when the mouse pointer is hovering over them. It enables you to define a style for links when they are being interacted with by the user.
+
+4. `:active`: This pseudo-class targets links during the moment they are being clicked or activated by the user. It allows you to define a style for links when they are in the active state.
+
+By using these pseudo-classes along with the `a` selector, which targets all anchor elements, you can apply specific styles to active links and normal links separately. For example:
+
+```css
+a:link {
+  /* style for unvisited links */
+}
+
+a:visited {
+  /* style for visited links */
+}
+
+a:hover {
+  /* style for links on hover */
+}
+
+a:active {
+  /* style for links in the active state */
+}
+```
+
+    </p>
+</body>
+</html>

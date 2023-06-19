@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>que-10</title>
+    </head>
+    <body>
+        <h3>how can we club two or more rows or columns into single row or column in an html table ? with example
+        </h3>
+        <p>
+            To merge two or more rows or columns into a single row or column in an HTML table, you can use the colspan attribute for columns and the rowspan attribute for rows. These attributes allow you to specify how many cells a particular cell should span.
+            
+            To merge columns, you need to use the colspan attribute in the `<td>` tag of the cell you want to merge. For example, if you have a table with two columns and you want to merge the cells in the first column, you can use the colspan attribute with a value of 2. Here's an example:
+                
+                ```html
+                <table>
+                    <tr>
+                        <td colspan="2">Merged Column</td>
+                    </tr>
+                    <tr>
+                        <td>Column 1</td>
+                        <td>Column 2</td>
+                    </tr>
+                </table>```
+                
+                In this example, the first cell in the first row (`
+            </td>
+            <td colspan="2">Merged Column</td>`) will span across both columns.
+                
+                To merge rows, you need to use the rowspan attribute in the `<td>` tag of the cell you want to merge. For instance, if you have a table with three rows and you want to merge the cells in the first row, you can use the rowspan attribute with a value of 3. Here's an example:
+                
+                ```html
+                <table>
+                    <tr>
+                        <td rowspan="3">Merged Row</td>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                    </tr>
+                    <tr>
+                        <td>Cell 3</td>
+                        <td>Cell 4</td>
+                    </tr>
+                    <tr>
+                        <td>Cell 5</td>
+                        <td>Cell 6</td>
+                    </tr>
+                </table>```
+                
+                In this example, the first cell in the first column (`
+            </td>
+            <td rowspan="3">Merged Row</td>`) will span across all three rows.
+                
+                By using the colspan and rowspan attributes, you can merge cells in HTML tables and create more complex table layouts.
+        </p>
+    </body>
+</html>

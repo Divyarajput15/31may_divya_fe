@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>que-9</title>
+    </head>
+    <body>
+        <h3>how is cell padding is different from cell spacing ? with example
+        </h3>
+        <p>
+            Cell padding and cell spacing are two attributes used in table formatting in HTML. The main difference between them lies in their purpose and effect.
+            
+            Cell padding controls the space between the border of a table cell and its contents. It specifies the whitespace between the cell edge and the content of the cell. This attribute is defined using the `cellpadding` property within the `<table>` tag. For example, `<table cellpadding="4">` sets a cell padding of 4 pixels. Cell padding is mainly used to add spacing within a single cell. It affects the space inside the cell, between the cell border (even if invisible) and the cell content.
+                
+            On the other hand, cell spacing controls the space between adjacent cells. It defines the whitespace between the edges of the adjacent cells. The `cellspacing` attribute is used within the `<table>` tag to specify the space between cells. For instance, `<table cellspacing="5">` sets a cell spacing of 5 pixels. Cell spacing affects the space between multiple cells in a table, making the gaps between them wider or narrower.
+                
+            To illustrate the difference, consider the following example:
+                
+                ```html
+                            <table border="1" cellpadding="4" cellspacing="5">
+                                <thead>
+                                    <td>
+                                        <span>Name</span>
+                                    </td>
+                                    <td>
+                                        <span>Age</span>
+                                    </td>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Rani</td>
+                                        <td>30</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rajan</td>
+                                        <td>35</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Akshaya</td>
+                                        <td>17</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ashick</td>
+                                        <td>13</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            ```
+                            
+            In this example, the `cellpadding` attribute sets the spacing within each cell, specifying the distance between the cell content and the cell border. Meanwhile, the `cellspacing` attribute determines the spacing between adjacent cells, controlling the gaps between them. The result is a table with both internal padding within cells and spacing between cells .
+            </p>
+            </body>
+</html>
