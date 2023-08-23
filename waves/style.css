@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+body::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: url('https://c1.wallpaperflare.com/preview/706/825/80/iphone-mobile-notebook-open.jpg') no-repeat center center/cover ;
+    opacity: .8;
+}
+
+.line{
+    height: 1px;
+    width: 3rem;
+    background: #fff;
+}
+
+.des-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot{
+    height: 5px;
+    background: red;
+    width: 5px;
+    border-radius: 100%;
+    margin: 0 1rem;
+}
+
+.desc{
+    font-size: .8rem;
+}
+
+
+.text-cont{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+    color:#fff;
+}
+
+.wave-cont{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+
+.avatar{
+    height: 3rem;
+    object-fit: contain;
+    /* position: absolute; */
+}
+
+.img-cont{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    width: inherit;
+    gap:10rem
+}
+
+.img-cont div:nth-child(1){
+    position: relative;
+    top: 3.5rem;
+}
+.img-cont div:nth-child(2){
+    position: relative;
+    top: 3rem;
+}
+.img-cont div:nth-child(3){
+    position: relative;
+    top: 4rem;
+}
+.img-cont div:nth-child(4){
+    position: relative;
+    top: 2.5rem;
+}
+.img-cont div:nth-child(5){
+    position: relative;
+    bottom: 3rem;
+}

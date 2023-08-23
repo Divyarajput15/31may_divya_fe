@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400 &display=swap');
+
+/* font-family: 'Lato', sans-serif; */
+
+
+/* 
+#1F1F1F
+#E74B3B
+#515151
+#F3F5F9
+*/
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.icons_container
+{
+    position: absolute;
+    right: 39%;
+    top: 15%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20%;
+    padding: 1%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+img
+{
+    height: 100%;
+    width: 100%;
+
+}
+.circle
+{
+    background: white;
+    padding: 1rem;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px ;
+}
+
+.carousel_bullets
+{
+display: flex;
+flex-direction: column;
+height: 100%;
+justify-content: center;
+row-gap: 5%;
+position: absolute;
+padding-top: 10%;
+padding-bottom: 10%;
+padding: 2%;
+
+}
+
+#bullet
+{
+    width: 5px;
+    height: 40px;
+}
+.bullet_1,.bullet_2,.bullet_3
+{
+
+background: white;
+opacity: 20%;
+}
+.bullet_2
+{
+    opacity: 1;
+    background-color: red;
+}
+
+
+.left_container
+{
+    flex: 1.5;
+    padding: 20px;
+    background-color: #1F1F1F;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    max-width: calc(58%);
+}
+
+.content
+{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+row-gap: 1.5rem;
+width: 96%;
+color: white;
+padding: 1rem;
+line-height: 1.75;
+}
+
+
+.headline
+{
+    font-size: xx-large;
+    text-align: right;
+    padding: .75rem;
+}
+
+.headline_design
+{
+    width: 6px;
+    height: 35px;
+    position: absolute;
+    right: 45.75%;
+    top: 22.75%;
+    background-color: red;
+}
+
+#tagline
+{
+    color: red;
+    font-size: larger;
+    
+}
+
+.box_1, .box_2,.box_3
+{
+    
+    text-align: right;
+    height: 15%; 
+    overflow: hidden;
+    padding: .75rem;
+    padding-left: 20%;
+    
+}
+.description
+{
+    opacity: 30%;
+    line-height: 1.9;
+}
+
+
+
+.right_container
+{
+    flex: 1;
+    height: 100%;
+    background-image: url('../Assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
