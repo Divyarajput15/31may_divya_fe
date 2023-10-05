@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+.container .parent {
+    height: auto;
+    width: 25%;
+    margin: 50px auto;
+    background-size: 100% 100%;
+    /* border: 1px solid black; */
+}
+
+.container .parent .child-box-img {
+    height: 400px;
+    width: 100%;
+    margin: auto;
+    background-size: 100% 100%;
+    border-radius: 10px 10px 0px 0px;
+    /* border: 1px solid black; */
+}
+
+.container .parent .img1 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkQhm2AY8DAyn3hDdh8tLCHX39IQZt4POWcA&usqp=CAU");
+}
+
+.container .parent .img2 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFnfpFtSlDgusugb_839Y2e3KvD6eJ5Npeyg&usqp=CAU");
+}
+
+.container .parent .img3 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh39RyuEcQ2ujOm8ddTbWr3FjoJwZmqtQkBw&usqp=CAU");
+}
+
+.container .parent .child-box-info {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 3px 3px  gray;
+    background: linear-gradient(to right , #cac7c780 , #77889980);
+}
+
+.container .parent .child-box-info h1{
+    font-size: 50px;
+    padding: 5px 15px;
+    text-align: center;
+    color: transparent; 
+    background: linear-gradient(#77113d, #45748e, #595959, rgb(105, 124, 171), #150a3a); 
+    -webkit-background-clip: text;
+    -webkit-color: transparent;  
+}
+
+.container .parent .child-box-info h4{
+    font-size: 20px;
+    padding: 5px 15px;
+    margin-top: 5px;
+    text-align: center;
+    color: black;
+}
+
+.container .parent .child-box-info p{
+    font-size: 20px;
+    padding: 5px 15px;
+    margin-top: 5px;
+    color: #060331;
+    text-align: center;
+    display: none;
+}
+
+.container .parent .child-box-info:hover p{
+    display: block;
+}
